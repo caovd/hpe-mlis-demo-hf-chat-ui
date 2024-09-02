@@ -84,4 +84,46 @@
 
 ### Troubleshoot issues (Optional)
 
-- 
+- Known issue with Chat title descriptions not update. Ref[https://github.com/huggingface/chat-ui/issues/1370].
+
+### Package version
+```sh
+npm version
+{
+  'chat-ui': '0.9.2',
+  npm: '10.8.2',
+  node: '22.7.0',
+  acorn: '8.12.1',
+  ada: '2.9.0',
+  amaro: '0.1.6',
+  ares: '1.33.0',
+  brotli: '1.1.0',
+  cjs_module_lexer: '1.2.2',
+  cldr: '45.0',
+  icu: '75.1',
+  llhttp: '9.2.1',
+  modules: '127',
+  napi: '9',
+  nbytes: '0.1.1',
+  ncrypto: '0.0.1',
+  nghttp2: '1.62.1',
+  nghttp3: '0.7.0',
+  ngtcp2: '1.3.0',
+  openssl: '3.0.13+quic',
+  simdjson: '3.10.0',
+  simdutf: '5.3.4',
+  sqlite: '3.46.0',
+  tz: '2024a',
+  undici: '6.19.7',
+  unicode: '15.1',
+  uv: '1.48.0',
+  uvwasi: '0.0.21',
+  v8: '12.4.254.21-node.18',
+  zlib: '1.3.0.1-motley-71660e1'
+}
+```
+- nodejs: Node.js v12.22.9
+- vite: ITE v5.4.2
+
+### Reference: 
+https://huggingface.co/docs/chat-ui/en/installation/local
